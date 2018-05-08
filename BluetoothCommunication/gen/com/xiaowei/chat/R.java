@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.xiaowei.communication;
+package com.xiaowei.chat;
 
 public final class R {
     public static final class attr {
@@ -14,9 +14,13 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-        public static final int bt_send=0x7f060003;
+        public static final int bt_search=0x7f060005;
+        public static final int bt_send=0x7f060004;
         public static final int et_message=0x7f060002;
+        public static final int et_target_device=0x7f060003;
         public static final int textView1=0x7f060000;
+        public static final int textView2=0x7f060006;
+        public static final int tv_devices=0x7f060007;
         public static final int tv_message=0x7f060001;
     }
     public static final class layout {
